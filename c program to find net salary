@@ -2,21 +2,23 @@
 #include<stdio.h>
 int main()
 {
-   float NS,GS,HRA,DA,O,D;
+   float NS,GS,HRA,DA,O,D,A,B,C;
    printf("Enter GS:");
    scanf("%f",&GS);
-   printf("Enter HRA:");
-   scanf("%f",&HRA);
-   printf(HRA is %f",HRA);
-   printf("Enter DA:");
-   scanf("%f",&DA);
-   printf(DA is %f",DA);
-   printf("Enter Others:");
-   scanf("%f",&O);
-   printf("Others is %f",O);
+   printf("\nEnter A:");
+   scanf("%f",&A);
+   HRA=(A/100)*GS;
+   printf("\nHRA is %f",HRA);
+   printf("\nEnter B:");
+   scanf("%f",&B);
+   DA=(B/100)*GS;
+   printf("\nDA is %f",DA);
+   printf("\nEnter C:");
+   scanf("%f",&C);
+   O=(C/100)*GS;
+   printf("\nOthers is %f",O);
    D=HRA+DA+O;
    NS=GS-D;
-   printf("Netsalary is %f",NS);
+   printf("\nNetsalary is %f",NS);
    return 0;
-}
-
+}￼Enter
