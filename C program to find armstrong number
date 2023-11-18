@@ -1,0 +1,22 @@
+//c program to find armstrong number
+#include<stdio.h>
+int main()
+{
+   int A,B,C,D,E,F,G,H,I;
+   printf("\nEnter A:");
+   scanf("%d",&A);
+   B=A/100;
+   C=A%10;
+   D=A%100;
+   E=D/10;
+   F=B*B*B;
+   G=C*C*C;
+   H=E*E*E;
+   I=F+G+H;
+   printf("\nI =%d",I);
+   if(A==I)
+    printf("\nThe given is Armstrong number");
+   else
+    printf("\nThe given is not Armstrong number");
+return 0;
+}
