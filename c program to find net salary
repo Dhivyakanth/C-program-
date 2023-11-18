@@ -1,0 +1,19 @@
+//c program to find net salary
+#include<stdio.h>
+int main()
+{
+   int NS,GS,HRA,DA,O,D;
+   printf("Enter GS:");
+   scanf("%d",&GS);
+   printf("Enter HRA:");
+   scanf("%d",&HRA);
+   printf("Enter DA:");
+   scanf("%d",&DA);
+   printf("Enter Others:");
+   scanf("%d",&O);
+   D=HRA+DA+O;
+   NS=GS-D;
+   printf("Netsalary is %d",NS);
+   return 0;
+}
+
