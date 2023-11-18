@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+   int A,B,C,D,E,Total;
+   printf("Enter A:");
+   scanf("%d",&A);
+   printf("Enter B:");
+   scanf("%d",&B);
+   printf("Enter C:");
+   scanf("%d",&C);
+   printf("Enter D:");
+   scanf("%d",&D);
+   printf("Enter E:");
+   scanf("%d",&E);
+   if(A,B,C,D,E >= 40)
+      printf("pass");
+   else
+      printf("fail");
+   Total=A+B+C+D+E;
+   printf("\nTotal mark scored %d", Total);
+   return 0;
+}
