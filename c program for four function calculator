@@ -1,0 +1,29 @@
+//c program to find sum of digits of number
+#include<stdio.h>
+int main()
+{
+   int A,B;
+   char op;
+   printf("\nEnter op:");
+   scanf("%c",&op);
+   printf("\nEnter A:");
+   scanf("%d",&A);
+   printf("\nEnter B:");
+   scanf("%d",&B);
+   switch(op)
+   {
+       case '+':
+       printf("\n%d + %d = %d",A,B,A+B);
+       break;
+       case '-':
+       printf("\n%d - %d = %d",A,B,A-B);
+       break;
+       case '*':
+       printf("\n%d * %d = %d",A,B,A*B);
+       break;
+       case '/':
+       printf("\n%d / %d = %d",A,B,A/B);
+       break;
+   }
+   return 0;
+}
