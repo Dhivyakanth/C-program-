@@ -1,0 +1,25 @@
+\\c program using power function 
+
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int a,b,c;
+    printf("enter value of a and b:");
+    scanf("%d %d",&a,&b);
+    c=pow(a,b);
+    printf("%d power of %d is %d",a,b,c);
+}
+
+\\c program to find square root of a number 
+
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int a,c;
+    printf("Enter value of a:");
+    scanf("%d",&a);
+    c=sqrt(a);
+    printf("squareroot of %d is %d",a,c);
+}
