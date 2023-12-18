@@ -1,0 +1,39 @@
+\\c program for decrement using call by value
+
+#include<stdio.h>
+int dec(int x);
+int main()
+{
+    int a;
+    printf("Enter value of a:");
+    scanf("%d",&a);
+    printf("Before decreasing:%d",a);
+    dec(a);
+    printf("\nAfter decreasing %d",a);
+}
+int dec(int x)
+{
+    
+    x=x-1;
+     printf("\ndecrement is %d",x);
+}
+
+\\ c program for decrement using call by reference
+
+#include<stdio.h>
+int dec(int*x);
+int main()
+{
+    int a;
+    printf("Enter value of a:");
+    scanf("%d",&a);
+    printf("Before decreasing:%d",a);
+    dec(&a);
+    printf("\nAfter decreasing %d",a);
+}
+int dec(int*x)
+{
+    
+    *x=*x-1;
+     printf("\ndecrement is %d",*x);
+}
