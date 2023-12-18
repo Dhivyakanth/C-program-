@@ -1,0 +1,35 @@
+RETURN TYPE AND ARGUMENT PASSED
+
+#include<stdio.h>
+int area(int x);
+int main()
+{
+    int a,b;
+    printf("Enter value of a:");
+    scanf("%d",&a);
+    b=area(a);
+    printf("\nArea of square is %d",b);
+}
+int area(int x)
+{
+    int z;
+    z=x*x;
+    return z;
+}
+
+NO RETURN TYPE AND NO ARGUMENT PASSED
+
+#include<stdio.h>
+void area();
+void main()
+{
+    area();
+}
+void area()
+{
+    int a,b;
+    printf("Enter value of a:");
+    scanf("%d",&a);
+    b=a*a;
+    printf("\nArea of square is %d",b);
+}
